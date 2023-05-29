@@ -1,0 +1,283 @@
+/* ========================================= General styles ======================================*/
+@font-face {
+    font-family: 'FontFamilyLogo';
+    src: url('../fonts/goodtime-webfont.woff2') format('woff2'),
+        url('../fonts/goodtime-webfont.woff') format('woff'),
+        url('../fonts/goodtime-webfont.ttf') format('truetype'),
+        url('../fonts/goodtime-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "FontFamilySPro";
+    line-height: 1.5;
+    font-size: 1.4em;
+    width: 100vw;
+min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: rgba(186, 188, 171, .87);
+    
+}
+   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  } 
+  
+nav {
+    width: 100%;
+    height: 120px;
+    background-color: #0e49a0;
+    box-shadow: 2px 0px 7px #000;
+
+z-index: 1000;
+
+}
+
+.contenedor-tabla {
+    display: table;
+    width: 90%;
+}
+
+.contenedor-tr {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.contenedor-tr>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenedor-tr>a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color .4s ease-in;
+}
+
+.contenedor-tr>a:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+.table-cell-td {
+    display: table-cell;
+    padding: 20px 7px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 20%;
+}
+
+.table-cell-td:focus {
+    outline: none;
+}
+
+.text-navbar {
+    color: #fff;
+    font-size: 19px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+#mobile-menu-list {
+    display: none;
+}
+
+section {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+article {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    /* width: 100%;
+    color: #fff;
+    background-color: rgb(42, 6, 248);
+    padding: 40px 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; */
+    background-color: rgb(42, 6, 248);
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    padding: 40 0;
+    flex-direction: column;
+
+}
+
+.text-footer {
+    color: #5bc0de;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+.tittles-pages-logo {
+    font-family: "FontFamilyLogo";
+}
+
+.center-all-contens {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ResbeforeSend {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    z-index: 99999;
+}
+
+.container-form-admin {
+    border: 1px solid #e0e1e1 !important;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+/* ========================================= index styles ======================================*/
+#container-page-index {
+    background-color: rgba(186, 188, 171, .87);
+    ;
+}
+
+#new-prod-index {
+    background-color: rgba(186, 188, 171, .87);
+}
+
+#reg-info-index {
+    background-color: rgba(186, 188, 171, .87);
+}
+
+#distribuidores-index {
+    background-color: rgba(186, 188, 171, .87);
+    color: #000;
+}
+
+#prod-destacado-index {
+    background-color: rgba(186, 188, 171, .87);
+}
+
+/* ========================================= product styles ======================================*/
+#container-page-product {
+    background-color: rgba(186, 188, 171, .87);
+}
+
+#store,
+#infoproduct,
+#container-pedido {
+    background-color: rgba(186, 188, 171, .87);
+    min-height: 900px;
+}
+
+.img-product {
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ========================================= registration styles ======================================*/
+#container-page-registration {
+    background-color: rgba(186, 188, 171, .87);
+}
+
+#form-registration {
+    min-height: 900px;
+    background-color: rgba(255, 255, 255, .95);
+    padding-top: 120px;
+}
+
+#container-form {
+    background-color: rgba(186, 188, 171, .87);
+    padding: 20px;
+    border-radius: 7px;
+    border: 2px dashed lightblue;
+}
+
+/* ========================================= configAdmin styles ======================================*/
+#container-page-configAdmin {
+    background-color: whitesmoke;
+}
+
+#prove-product-cat-config {
+    background-color: whitesmoke;
+    min-height: 200px;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #000; */
+    width: 100%;
+    height: 70%;
+    padding-top: 80px;
+
+
+
+    top: 0;
+    position: relative;
+
+
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+.te {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-self: center;
+    font-size: 30px;
+    background-color: #0e49a0;
+    width: 90%;
+
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carrytoV{
+    width: 300px;
+    height: 500px;
+    transform: scale(0.8 ,0.7);
+    top: 10px;
+    right: -130px;
+    visibility: visible;
+    transition: 2s;
+}
+.carrytoA{
+    position: absolute;
+
+
+}
+
+.carrytoR{
+    position: relative;
+    visibility: hidden;
+}
